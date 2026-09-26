@@ -1,6 +1,6 @@
 #include <stdio.h>
 long long memo [1000];
-int trib(int n)
+long long trib(int n)
 {	if (n == 0)
 		return 0;
 	if (n == 1)	
