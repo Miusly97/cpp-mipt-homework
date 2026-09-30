@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main()
-{	double x1, y1, r1;
+{	
+	double x1, y1, r1;
 	double x2, y2, r2;
 	scanf("%lf%lf%lf", &x1, &y1, &r1);
 	scanf("%lf%lf%lf", &x2, &y2, &r2);
