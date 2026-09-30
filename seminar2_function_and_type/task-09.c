@@ -1,7 +1,8 @@
 #include <stdio.h>
 void alice(int n); 
 void bob (int n)
-{	n = n / 2;
+{	
+	n = n / 2;
 	printf("Bob: %i\n", n);
 	if (n == 1)
 		return;
@@ -11,12 +12,14 @@ void bob (int n)
 		alice(n);
 }
 void alice(int n)
-{	n = 3 * n + 1;
+{	
+	n = 3 * n + 1;
 	printf ("Alice: %i\n", n);
 	bob (n);
 }
 int main()
-{	int n;
+{	
+	int n;
     scanf ("%i", &n);
 	alice (n);
 }
