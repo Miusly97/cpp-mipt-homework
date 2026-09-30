@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdint.h>
 int main()
-{	printf("char      : %zu\n", sizeof(char));
+{
+	printf("char      : %zu\n", sizeof(char));
 	printf("short     : %zu\n", sizeof(short));
 	printf("int       : %zu\n", sizeof(int));
 	printf("long long : %zu\n", sizeof(long long));
