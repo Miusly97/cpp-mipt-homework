@@ -4,7 +4,7 @@ void print_even (int a, int b)
 	for(int i=a; i<=b; i+=1)
 	{
 		if (i%2==0)
-	printf("%i ", i);
+			printf("%i ", i);
 	}
 }
 int main()
