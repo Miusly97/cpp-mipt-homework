@@ -1,7 +1,8 @@
 #include <stdio.h>
 long long memo [1000];
 long long trib(int n)
-{	if (n == 0)
+{	
+	if (n == 0)
 		return 0;
 	if (n == 1)	
 		 return 0;
@@ -13,7 +14,8 @@ long long trib(int n)
 	return memo[n];
 }
 int main()
-{	int n;
+{	
+	int n;
 	scanf("%i", &n);
 	printf ("%i", trib(n));
 }

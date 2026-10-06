@@ -1,9 +1,11 @@
 #include <stdio.h>
 int cube(int a)
-{	return a*a*a;
+{		
+	return a*a*a;
 }
 int main()
-{	int a;
+{	
+	int a;
 	scanf("%i", &a);
 	printf("%i" , cube(a));
 }
