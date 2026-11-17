@@ -9,8 +9,8 @@ int main()
 {
 	std::string a = "Cat";
 	addBrackets(a);
-	std::cout << a << std::endl;  // Должно напечатать [Cat]
+	std::cout << a << std::endl;  
 	
 	addBrackets(a);
-	std::cout << a << std::endl;  // Должно напечатать [[Cat]]
+	std::cout << a << std::endl;  
 }
